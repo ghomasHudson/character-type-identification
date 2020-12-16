@@ -13,13 +13,13 @@ For more details, see the paper [TBD](https://TBD).
 ## Using the Dataset
 
 Due to licensing issues, the full scripts aren't included in this repository. They can be downloaded to `/path/to/repo/tmp` by running:
-```
+```python
 pip install -r requirements.txt
 python download_scripts.py
 ```
 
 Alternativly, the dataset can be conveniently loaded using [huggingface/datasets](https://github.com/huggingface/datasets):
-```
+```python
 import datasets
 ds = datasets.load_dataset("character_type_id")
 print(ds["train"][0])
