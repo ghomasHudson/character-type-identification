@@ -1,4 +1,4 @@
-# character-type-identification
+# Character-type Identification
 This repository contains the character type identification dataset.
 
 For more details, see the paper [TBD](https://TBD).
@@ -9,6 +9,22 @@ For more details, see the paper [TBD](https://TBD).
 - summaries.csv - contains wikipedia summaries in the format  `document_id, set, summary`.
 - character_labels.csv - contains the character type annotations in the format `document_id, set, character_name, character_type`
 - download_scripts.py - downloads the full scripts.
+
+## Using the Dataset
+
+Due to licensing issues, the full scripts aren't included in this repository. They can be downloaded to `/path/to/repo/tmp` by running:
+```
+pip install -r requirements.txt
+python download_scripts.py
+```
+
+Alternativly, the dataset can be conveniently loaded using [huggingface/datasets](https://github.com/huggingface/datasets):
+```
+import datasets
+ds = datasets.load_dataset("character_type_id")
+print(ds["train"][0])
+>> {"document_id": "00001", "summary":{"title": "Name of Movie (film)", "text": "The movie begins..."},...
+```
 
 
 ## Citation
