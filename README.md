@@ -18,7 +18,7 @@ pip install -r requirements.txt
 python download_scripts.py
 ```
 
-Alternativly, the dataset can be conveniently loaded using [huggingface/datasets](https://github.com/huggingface/datasets):
+Alternatively, the dataset can be conveniently loaded using [huggingface/datasets](https://github.com/huggingface/datasets):
 ```python
 import datasets
 ds = datasets.load_dataset("character_type_id")
