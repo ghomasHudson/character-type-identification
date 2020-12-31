@@ -1,0 +1,340 @@
+<html><body>
+
+
+
+<!--
+#############################################
+## Amazon Turk layout
+#############################################
+-->
+
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<style>
+    body{
+        background-color: #444444;
+        background: repeating-linear-gradient(
+            45deg,
+            #222222,
+            #222222 3px,
+            #111111 3px,
+            #111111 6px
+);
+    }
+    p{
+        margin-bottom:0.5em !important;
+    }
+    .container{
+        background: white;
+    }
+    .imagecontainer{
+        height:600px;
+        width: auto;
+    }
+    h1 { font-size: 1.8em !important; }
+    h2 {font-size:1.3em !important;}
+    form {font-size:1em !important;}
+    crowd-button{-webkit-appearance: none !important;}
+    .card-body{font-weight: normal !important; text-align:left !important}
+</style>
+
+<div class="container clearfix" style="height: 100vh !important;overflow:auto !important">
+<div class="card">
+    <div class="card-header" style="background-color:#9999AA"><b>Instructions</b></div>
+    <div class="card-body" style="padding-bottom:0;padding-top:10px;background-color:#DDDDEE">
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+      <p>Movies often contain common character types: Heros, Villains, Romantic Interests, etc..</p>
+      <ul>
+        <li><b>Hero/Protagonist/Main Character</b> - Leads the narrative; usually looking for something or trying to solve something. <em>e.g. James Bond, Indiana Jones, Han Solo, Harry Potter, Batman</em></li>
+        <li><b>Villain/Antagonist</b> - Struggles against the hero and gets in their way - <em>e.g. Darth Vader, Voldemort, The Joker</em></li>
+        <li><b>Spouse/Partner/Lover</b> - Romantic interest/companion of the hero or villain</li>
+        <li><b>Sidekick</b> - Helps the hero/villain in their objective - <em>e.g. Robin (Batman), John Watson (Sherlock Holmes), Donkey (Shrek)</em></li>
+        <li><b>Supporting Role Characters</b> - Other characters in supporting roles (parents, teachers, secretaries, taxi drivers)</li>
+        <li><b>Mentor</b> - teaches and guides the hero - <em>e.g. Yoda, Mufasa, Gandalf, Dumbledore </em></li>
+      </ul>
+      <p>We want you to indentify character types based on a summary of a movie's plot.
+
+<h2>Your task is to:</h2>
+<ul>
+    <li>Familiarise yourself with the <b>List of Character types</b> above.</li>
+    <li>Use your knowledge of the movie (if you've seen it) and the provided <b>plot summary</b> to understand the character's roles. Feel free to search the internet if you need more information.</li>
+    <li>Select the character type that applies to each character in the movie. Not all movies will have characters of all types, and some movies will have multiple characters of a single type. Pick "No Applicable Type" when nothing fits.</li>
+</ul>
+</div>
+</div>
+<br>
+<h1>HIT</h1>
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects" class="clearfix">
+<p>Here is a plot summary for the movie: <b>${title}<b>:
+
+<div class="card">
+  <div class="card-header">
+    Summary
+  </div>
+  <div class="card-body" style="text-align:center">
+      ${summary}
+      <hr>
+      For extra info see the <a href="${wiki_url}">Wikipedia Page: ${title} (film)</a>.
+  </div>
+</div>
+<br>
+<br>
+<h4>Have you seen this movie before?</h4>
+<crowd-radio-group>
+    <crowd-radio-button name="seenMovie" value="Seen movie">Yes</crowd-radio-button>
+    <crowd-radio-button name="notSeenMovie" value="Not seen movie">No</crowd-radio-button>
+</crowd-radio-group>
+<br>
+<hr>
+<br>
+<strong>Identify the character types of:</strong>
+<br>
+<br>
+
+<span id="char0">
+<h4 id="char_title0">Character 0</h4>
+<crowd-radio-group>
+    <crowd-radio-button name="char0na" value="Character 0 N/A">No Applicable Type</crowd-radio-button>
+    <crowd-radio-button name="char0H" value="Character 0 H">Hero</crowd-radio-button>
+    <crowd-radio-button name="char0A" value="Character 0 A">Villain/Antagonist</crowd-radio-button>
+    <crowd-radio-button name="char0H-L" value="Character 0 H-L">Spouse/Partner/Lover of Hero</crowd-radio-button>
+    <crowd-radio-button name="char0A-L" value="Character 0 A-L">Spouse/Partner/Lover of Villain</crowd-radio-button>
+    <crowd-radio-button name="char0H-SK" value="Character 0 H-SK">Sidekick of Hero</crowd-radio-button>
+    <crowd-radio-button name="char0A-SK" value="Character 0 A-SK">Sidekick of Villain</crowd-radio-button>
+    <crowd-radio-button name="char0H-SR" value="Character 0 H-SR">Supporting role character of Hero</crowd-radio-button>
+    <crowd-radio-button name="char0A-SR" value="Character 0 A-SR">Supporting role character of Villain</crowd-radio-button>
+    <crowd-radio-button name="char0M" value="Character 0 M">Mentor</crowd-radio-button>
+</crowd-radio-group>
+<br>
+<hr>
+<br>
+</span>
+<span id="char1">
+<h4 id="char_title1">Character 1</h4>
+<crowd-radio-group>
+    <crowd-radio-button name="char1na" value="Character 1 N/A">No Applicable Type</crowd-radio-button>
+    <crowd-radio-button name="char1H" value="Character 1 H">Hero</crowd-radio-button>
+    <crowd-radio-button name="char1A" value="Character 1 A">Villain/Antagonist</crowd-radio-button>
+    <crowd-radio-button name="char1H-L" value="Character 1 H-L">Spouse/Partner/Lover of Hero</crowd-radio-button>
+    <crowd-radio-button name="char1A-L" value="Character 1 A-L">Spouse/Partner/Lover of Villain</crowd-radio-button>
+    <crowd-radio-button name="char1H-SK" value="Character 1 H-SK">Sidekick of Hero</crowd-radio-button>
+    <crowd-radio-button name="char1A-SK" value="Character 1 A-SK">Sidekick of Villain</crowd-radio-button>
+    <crowd-radio-button name="char1H-SR" value="Character 1 H-SR">Supporting role character of Hero</crowd-radio-button>
+    <crowd-radio-button name="char1A-SR" value="Character 1 A-SR">Supporting role character of Villain</crowd-radio-button>
+    <crowd-radio-button name="char1M" value="Character 1 M">Mentor</crowd-radio-button>
+</crowd-radio-group>
+<br>
+<hr>
+<br>
+</span>
+<span id="char2">
+<h4 id="char_title2">Character 2</h4>
+<crowd-radio-group>
+    <crowd-radio-button name="char2na" value="Character 2 N/A">No Applicable Type</crowd-radio-button>
+    <crowd-radio-button name="char2H" value="Character 2 H">Hero</crowd-radio-button>
+    <crowd-radio-button name="char2A" value="Character 2 A">Villain/Antagonist</crowd-radio-button>
+    <crowd-radio-button name="char2H-L" value="Character 2 H-L">Spouse/Partner/Lover of Hero</crowd-radio-button>
+    <crowd-radio-button name="char2A-L" value="Character 2 A-L">Spouse/Partner/Lover of Villain</crowd-radio-button>
+    <crowd-radio-button name="char2H-SK" value="Character 2 H-SK">Sidekick of Hero</crowd-radio-button>
+    <crowd-radio-button name="char2A-SK" value="Character 2 A-SK">Sidekick of Villain</crowd-radio-button>
+    <crowd-radio-button name="char2H-SR" value="Character 2 H-SR">Supporting role character of Hero</crowd-radio-button>
+    <crowd-radio-button name="char2A-SR" value="Character 2 A-SR">Supporting role character of Villain</crowd-radio-button>
+    <crowd-radio-button name="char2M" value="Character 2 M">Mentor</crowd-radio-button>
+</crowd-radio-group>
+<br>
+<hr>
+<br>
+</span>
+<span id="char3">
+<h4 id="char_title3">Character 3</h4>
+<crowd-radio-group>
+    <crowd-radio-button name="char3na" value="Character 3 N/A">No Applicable Type</crowd-radio-button>
+    <crowd-radio-button name="char3H" value="Character 3 H">Hero</crowd-radio-button>
+    <crowd-radio-button name="char3A" value="Character 3 A">Villain/Antagonist</crowd-radio-button>
+    <crowd-radio-button name="char3H-L" value="Character 3 H-L">Spouse/Partner/Lover of Hero</crowd-radio-button>
+    <crowd-radio-button name="char3A-L" value="Character 3 A-L">Spouse/Partner/Lover of Villain</crowd-radio-button>
+    <crowd-radio-button name="char3H-SK" value="Character 3 H-SK">Sidekick of Hero</crowd-radio-button>
+    <crowd-radio-button name="char3A-SK" value="Character 3 A-SK">Sidekick of Villain</crowd-radio-button>
+    <crowd-radio-button name="char3H-SR" value="Character 3 H-SR">Supporting role character of Hero</crowd-radio-button>
+    <crowd-radio-button name="char3A-SR" value="Character 3 A-SR">Supporting role character of Villain</crowd-radio-button>
+    <crowd-radio-button name="char3M" value="Character 3 M">Mentor</crowd-radio-button>
+</crowd-radio-group>
+<br>
+<hr>
+<br>
+</span>
+<span id="char4">
+<h4 id="char_title4">Character 4</h4>
+<crowd-radio-group>
+    <crowd-radio-button name="char4na" value="Character 4 N/A">No Applicable Type</crowd-radio-button>
+    <crowd-radio-button name="char4H" value="Character 4 H">Hero</crowd-radio-button>
+    <crowd-radio-button name="char4A" value="Character 4 A">Villain/Antagonist</crowd-radio-button>
+    <crowd-radio-button name="char4H-L" value="Character 4 H-L">Spouse/Partner/Lover of Hero</crowd-radio-button>
+    <crowd-radio-button name="char4A-L" value="Character 4 A-L">Spouse/Partner/Lover of Villain</crowd-radio-button>
+    <crowd-radio-button name="char4H-SK" value="Character 4 H-SK">Sidekick of Hero</crowd-radio-button>
+    <crowd-radio-button name="char4A-SK" value="Character 4 A-SK">Sidekick of Villain</crowd-radio-button>
+    <crowd-radio-button name="char4H-SR" value="Character 4 H-SR">Supporting role character of Hero</crowd-radio-button>
+    <crowd-radio-button name="char4A-SR" value="Character 4 A-SR">Supporting role character of Villain</crowd-radio-button>
+    <crowd-radio-button name="char4M" value="Character 4 M">Mentor</crowd-radio-button>
+</crowd-radio-group>
+<br>
+<hr>
+<brnnn>
+</span>
+<span id="char5">
+<h4 id="char_title5">Character 5</h4>
+<crowd-radio-group>
+    <crowd-radio-button name="char5na" value="Character 5 N/A">No Applicable Type</crowd-radio-button>
+    <crowd-radio-button name="char5H" value="Character 5 H">Hero</crowd-radio-button>
+    <crowd-radio-button name="char5A" value="Character 5 A">Villain/Antagonist</crowd-radio-button>
+    <crowd-radio-button name="char5H-L" value="Character 5 H-L">Spouse/Partner/Lover of Hero</crowd-radio-button>
+    <crowd-radio-button name="char5A-L" value="Character 5 A-L">Spouse/Partner/Lover of Villain</crowd-radio-button>
+    <crowd-radio-button name="char5H-SK" value="Character 5 H-SK">Sidekick of Hero</crowd-radio-button>
+    <crowd-radio-button name="char5A-SK" value="Character 5 A-SK">Sidekick of Villain</crowd-radio-button>
+    <crowd-radio-button name="char5H-SR" value="Character 5 H-SR">Supporting role character of Hero</crowd-radio-button>
+    <crowd-radio-button name="char5A-SR" value="Character 5 A-SR">Supporting role character of Villain</crowd-radio-button>
+    <crowd-radio-button name="char5M" value="Character 5 M">Mentor</crowd-radio-button>
+</crowd-radio-group>
+<br>
+<hr>
+<br>
+</span>
+<span id="char6">
+<h4 id="char_title6">Character 6</h4>
+<crowd-radio-group>
+    <crowd-radio-button name="char6na" value="Character 6 N/A">No Applicable Type</crowd-radio-button>
+    <crowd-radio-button name="char6H" value="Character 6 H">Hero</crowd-radio-button>
+    <crowd-radio-button name="char6A" value="Character 6 A">Villain/Antagonist</crowd-radio-button>
+    <crowd-radio-button name="char6H-L" value="Character 6 H-L">Spouse/Partner/Lover of Hero</crowd-radio-button>
+    <crowd-radio-button name="char6A-L" value="Character 6 A-L">Spouse/Partner/Lover of Villain</crowd-radio-button>
+    <crowd-radio-button name="char6H-SK" value="Character 6 H-SK">Sidekick of Hero</crowd-radio-button>
+    <crowd-radio-button name="char6A-SK" value="Character 6 A-SK">Sidekick of Villain</crowd-radio-button>
+    <crowd-radio-button name="char6H-SR" value="Character 6 H-SR">Supporting role character of Hero</crowd-radio-button>
+    <crowd-radio-button name="char6A-SR" value="Character 6 A-SR">Supporting role character of Villain</crowd-radio-button>
+    <crowd-radio-button name="char6M" value="Character 6 M">Mentor</crowd-radio-button>
+</crowd-radio-group>
+<br>
+<hr>
+<br>
+</span>
+<span id="char7">
+<h4 id="char_title7">Character 7</h4>
+<crowd-radio-group>
+    <crowd-radio-button name="char7na" value="Character 7 N/A">No Applicable Type</crowd-radio-button>
+    <crowd-radio-button name="char7H" value="Character 7 H">Hero</crowd-radio-button>
+    <crowd-radio-button name="char7A" value="Character 7 A">Villain/Antagonist</crowd-radio-button>
+    <crowd-radio-button name="char7H-L" value="Character 7 H-L">Spouse/Partner/Lover of Hero</crowd-radio-button>
+    <crowd-radio-button name="char7A-L" value="Character 7 A-L">Spouse/Partner/Lover of Villain</crowd-radio-button>
+    <crowd-radio-button name="char7H-SK" value="Character 7 H-SK">Sidekick of Hero</crowd-radio-button>
+    <crowd-radio-button name="char7A-SK" value="Character 7 A-SK">Sidekick of Villain</crowd-radio-button>
+    <crowd-radio-button name="char7H-SR" value="Character 7 H-SR">Supporting role character of Hero</crowd-radio-button>
+    <crowd-radio-button name="char7A-SR" value="Character 7 A-SR">Supporting role character of Villain</crowd-radio-button>
+    <crowd-radio-button name="char7M" value="Character 7 M">Mentor</crowd-radio-button>
+</crowd-radio-group>
+<br>
+<hr>
+<br>
+</span>
+<span id="char8">
+<h4 id="char_title8">Character 8</h4>
+<crowd-radio-group>
+    <crowd-radio-button name="char8na" value="Character 8 N/A">No Applicable Type</crowd-radio-button>
+    <crowd-radio-button name="char8H" value="Character 8 H">Hero</crowd-radio-button>
+    <crowd-radio-button name="char8A" value="Character 8 A">Villain/Antagonist</crowd-radio-button>
+    <crowd-radio-button name="char8H-L" value="Character 8 H-L">Spouse/Partner/Lover of Hero</crowd-radio-button>
+    <crowd-radio-button name="char8A-L" value="Character 8 A-L">Spouse/Partner/Lover of Villain</crowd-radio-button>
+    <crowd-radio-button name="char8H-SK" value="Character 8 H-SK">Sidekick of Hero</crowd-radio-button>
+    <crowd-radio-button name="char8A-SK" value="Character 8 A-SK">Sidekick of Villain</crowd-radio-button>
+    <crowd-radio-button name="char8H-SR" value="Character 8 H-SR">Supporting role character of Hero</crowd-radio-button>
+    <crowd-radio-button name="char8A-SR" value="Character 8 A-SR">Supporting role character of Villain</crowd-radio-button>
+    <crowd-radio-button name="char8M" value="Character 8 M">Mentor</crowd-radio-button>
+</crowd-radio-group>
+<br>
+<hr>
+<br>
+</span>
+
+<span id="char9">
+<h4 id="char_title9">Character 9</h4>
+<crowd-radio-group>
+    <crowd-radio-button name="char9na" value="Character 9 N/A">No Applicable Type</crowd-radio-button>
+    <crowd-radio-button name="char9H" value="Character 9 H">Hero</crowd-radio-button>
+    <crowd-radio-button name="char9A" value="Character 9 A">Villain/Antagonist</crowd-radio-button>
+    <crowd-radio-button name="char9H-L" value="Character 9 H-L">Spouse/Partner/Lover of Hero</crowd-radio-button>
+    <crowd-radio-button name="char9A-L" value="Character 9 A-L">Spouse/Partner/Lover of Villain</crowd-radio-button>
+    <crowd-radio-button name="char9H-SK" value="Character 9 H-SK">Sidekick of Hero</crowd-radio-button>
+    <crowd-radio-button name="char9A-SK" value="Character 9 A-SK">Sidekick of Villain</crowd-radio-button>
+    <crowd-radio-button name="char9H-SR" value="Character 9 H-SR">Supporting role character of Hero</crowd-radio-button>
+    <crowd-radio-button name="char9A-SR" value="Character 9 A-SR">Supporting role character of Villain</crowd-radio-button>
+    <crowd-radio-button name="char9M" value="Character 9 M">Mentor</crowd-radio-button>
+</crowd-radio-group>
+<br>
+<hr>
+<br>
+</span>
+<script>
+
+$( document ).ready(function() {
+
+//$(".container").height($(document).outerHeight())
+var max_chars = 10
+//Get list of characters
+var characterStr = "${characters}"
+characterStr = "''James Bond'' ''Dr Evil'' ''M'' ''Q''"
+//characterStr = "''Dr. Hero'' ''Prof Evil'' ''Miss Wise''"
+characters = characterStr.split("'' ''")
+for (var i=0;i<=max_chars;i++){
+    if (i < characters.length){
+        characters[i] = characters[i].replace(/'/g,"");
+        $("#char_title"+i).text(characters[i])
+    }else{
+        $("#char"+i).hide()
+    }
+}
+
+
+
+
+function validate(){
+    var disable = false;
+    //Get all inputs
+    for (var i=0;i<characters.length;i++){
+        var vals = $("crowd-radio-button[name^=char"+i+"]");
+        if (vals.length > 0){
+            any_checked = false;
+
+            for (var j=0;j<vals.length;j++){
+                if (vals[j].checked){
+                    any_checked = true
+                }
+            }
+            if (!any_checked){
+                disable = true;
+            }
+        }
+
+    }
+    var seen_checked = $("crowd-radio-button[name=seenMovie]")[0].checked || $("crowd-radio-button[name=notSeenMovie]")[0].checked
+    disable = disable || !seen_checked
+
+
+    //If so make the buttom look disabled
+    $("crowd-button").attr("disabled", disable);
+
+}
+setInterval(validate,1000);
+
+$("crowd-radio-button").change(validate);
+
+});
+
+</script>
+<!-- <crowd-button type="submit" form-action="submit" variant="primary">Submit</crowd-button> -->
+</crowd-form>
+</div>
+</body></html>
