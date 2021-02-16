@@ -14,6 +14,11 @@ os.mkdir(movie_scripts_path)
 
 with open(os.path.join(repo_base, "documents.csv")) as doc_metadata_file:
     reader = csv.DictReader(doc_metadata_file)
+
+
+    out_doc = open(os.path.join(repo_base, "documents_new.csv"), 'w')
+    out_writer = csv.DictWriter(out_doc,fieldnames=reader.fieldnames)
+    out_writer.writeheader()
     for line in reader:
 
         # Download script
@@ -34,10 +39,19 @@ with open(os.path.join(repo_base, "documents.csv")) as doc_metadata_file:
         with open(doc_path, 'w') as f_out:
             f_out.write(script_text)
 
-        # Verify file size
         dl_size = os.stat(doc_path).st_size
-        if dl_size != line["script_file_size"]:
-            percent_diff = (dl_size / int(line["script_file_size"])) / int(
-                line["script_file_size"]) * 100
-            logging.warning(doc_path + " differs by " + str(percent_diff) +
-                            "%")
+        if int(line["script_file_size"]) != 0:
+            # Verify file size
+            if dl_size != line["script_file_size"]:
+                percent_diff = (dl_size / int(line["script_file_size"])) / int(
+                    line["script_file_size"]) * 100
+                logging.warning(doc_path + " differs by " + str(percent_diff) +
+                                "%")
+        else:
+            # Write file size and word count
+            line["script_file_size"] = dl_size
+            import spacy
+            nlp = spacy.load("en_core_web_sm")
+            doc = nlp(script_text)
+            line["script_word_count"] = len(doc)
+            out_writer.writerow(line)
