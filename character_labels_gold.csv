@@ -1,0 +1,310 @@
+document_id,set,character_name,character_type,unit_quality_score
+b5155a0968b2822729334593887964832ae7baf8,test,Brooks,Supporting role character of Hero,0.0
+b5155a0968b2822729334593887964832ae7baf8,test,Dave,Supporting role character of Hero,0.00044702141894958913
+b5155a0968b2822729334593887964832ae7baf8,test,Estes,Supporting role character of Hero,0.8701702356338501
+b5155a0968b2822729334593887964832ae7baf8,test,Julie,Hero,0.00044702141894958913
+b5155a0968b2822729334593887964832ae7baf8,test,Karla,Supporting role character of Hero,0.8701999187469482
+b5155a0968b2822729334593887964832ae7baf8,test,Nancy,Supporting role character of Hero,0.057753339409828186
+b5155a0968b2822729334593887964832ae7baf8,test,Ray,Spouse/Partner/Lover of Hero,0.0
+b5155a0968b2822729334593887964832ae7baf8,test,Titus,Supporting role character of Hero,0.0
+b5155a0968b2822729334593887964832ae7baf8,test,Tyrell,Supporting role character of Hero,0.0
+1d62d89c46b27632884e6b44ed98d6677d59f84f,test,Carnegie,Villain/Antagonist,1.0
+1d62d89c46b27632884e6b44ed98d6677d59f84f,test,Claudia,Supporting role character of Hero,0.3665003776550293
+1d62d89c46b27632884e6b44ed98d6677d59f84f,test,Eli,Hero,1.0
+1d62d89c46b27632884e6b44ed98d6677d59f84f,test,Engineer,Supporting role character of Hero,0.32566964626312256
+1d62d89c46b27632884e6b44ed98d6677d59f84f,test,George,No Applicable Type,0.0
+1d62d89c46b27632884e6b44ed98d6677d59f84f,test,Lombardi,Supporting role character of Hero,0.0
+1d62d89c46b27632884e6b44ed98d6677d59f84f,test,Martha,No Applicable Type,0.0
+1d62d89c46b27632884e6b44ed98d6677d59f84f,test,Solara,Sidekick of Hero,0.30782997608184814
+aba6708b8f5f02dbcabcafba7aec7baf4a93c666,test,Alicia,Spouse/Partner/Lover of Hero,0.3330965042114258
+aba6708b8f5f02dbcabcafba7aec7baf4a93c666,test,Ben,Hero,0.0
+aba6708b8f5f02dbcabcafba7aec7baf4a93c666,test,Debbie,Spouse/Partner/Lover of Hero,0.0
+aba6708b8f5f02dbcabcafba7aec7baf4a93c666,test,Doom,Villain/Antagonist,1.0
+aba6708b8f5f02dbcabcafba7aec7baf4a93c666,test,Johnny,Hero,0.0
+aba6708b8f5f02dbcabcafba7aec7baf4a93c666,test,Reed,Hero,1.0
+aba6708b8f5f02dbcabcafba7aec7baf4a93c666,test,Victor,Villain/Antagonist,1.0
+caf5fd973848f97d2f87b3360c04b94295b195c0,test,Emma,Spouse/Partner/Lover of Villain,0.3965728282928467
+caf5fd973848f97d2f87b3360c04b94295b195c0,test,Jane,Supporting role character of Hero,0.0
+caf5fd973848f97d2f87b3360c04b94295b195c0,test,Jesse,Supporting role character of Hero,0.0
+caf5fd973848f97d2f87b3360c04b94295b195c0,test,Marshall,Sidekick of Hero,0.0
+caf5fd973848f97d2f87b3360c04b94295b195c0,test,Sheila,Supporting role character of Hero,0.311479389667511
+f05fe0123b70e92a3811852436bcc1e5e22ac31b,test,Charlie,Supporting role character of Villain,0.0
+f05fe0123b70e92a3811852436bcc1e5e22ac31b,test,Hank,Sidekick of Villain,0.0
+f05fe0123b70e92a3811852436bcc1e5e22ac31b,test,Jim,Villain/Antagonist,0.0
+f05fe0123b70e92a3811852436bcc1e5e22ac31b,test,Karen,Spouse/Partner/Lover of Hero,0.9510616660118103
+f05fe0123b70e92a3811852436bcc1e5e22ac31b,test,Kenny,Sidekick of Villain,0.0
+f05fe0123b70e92a3811852436bcc1e5e22ac31b,test,Phil,Sidekick of Villain,0.0
+f05fe0123b70e92a3811852436bcc1e5e22ac31b,test,Sheriff,Villain/Antagonist,0.0
+f05fe0123b70e92a3811852436bcc1e5e22ac31b,test,Tom,Hero,0.9510616660118103
+f05fe0123b70e92a3811852436bcc1e5e22ac31b,test,Wayne,Sidekick of Villain,0.0
+58792a49551d4170f84cfe956dd65d4445127eb5,test,Biggs,Supporting role character of Villain,0.0
+58792a49551d4170f84cfe956dd65d4445127eb5,test,Gerard,Villain/Antagonist,0.04223628714680672
+58792a49551d4170f84cfe956dd65d4445127eb5,test,Helen,Spouse/Partner/Lover of Hero,0.515920102596283
+58792a49551d4170f84cfe956dd65d4445127eb5,test,Kimble,Hero,0.515920102596283
+58792a49551d4170f84cfe956dd65d4445127eb5,test,Newman,Supporting role character of Villain,0.0
+58792a49551d4170f84cfe956dd65d4445127eb5,test,Nichols,Villain/Antagonist,0.01420609187334776
+58792a49551d4170f84cfe956dd65d4445127eb5,test,Poole,Supporting role character of Villain,0.5301262140274048
+58792a49551d4170f84cfe956dd65d4445127eb5,test,Renfro,Supporting role character of Villain,0.01420609187334776
+58792a49551d4170f84cfe956dd65d4445127eb5,test,Sykes,Sidekick of Villain,0.5913299918174744
+24f863da340a78cecf3912d0df852c0518ac7ff8,test,Caravaggio,Sidekick of Hero,0.3984769582748413
+24f863da340a78cecf3912d0df852c0518ac7ff8,test,Clifton,Supporting role character of Hero,0.0
+24f863da340a78cecf3912d0df852c0518ac7ff8,test,Hana,Hero,0.0
+24f863da340a78cecf3912d0df852c0518ac7ff8,test,Katharine,Supporting role character of Hero,1.0
+24f863da340a78cecf3912d0df852c0518ac7ff8,test,Kip,Spouse/Partner/Lover of Hero,1.0
+24f863da340a78cecf3912d0df852c0518ac7ff8,test,Madox,Supporting role character of Hero,0.0
+4b84a4bb071e196478e68d1e47b9fa89ed7ad862,test,Henri,Mentor,1.0
+4b84a4bb071e196478e68d1e47b9fa89ed7ad862,test,John,Hero,0.0
+4b84a4bb071e196478e68d1e47b9fa89ed7ad862,test,Mark,Villain/Antagonist,0.0
+4b84a4bb071e196478e68d1e47b9fa89ed7ad862,test,Sam,Sidekick of Hero,0.0
+4b84a4bb071e196478e68d1e47b9fa89ed7ad862,test,Sarah,Spouse/Partner/Lover of Hero,0.0
+4b84a4bb071e196478e68d1e47b9fa89ed7ad862,test,Six,Supporting role character of Hero,0.0
+029a740fdf3ac1035b1113b2dcfa22339ddfce6a,test,Adrian,Spouse/Partner/Lover of Hero,1.0
+029a740fdf3ac1035b1113b2dcfa22339ddfce6a,test,Apollo,Villain/Antagonist,1.0
+029a740fdf3ac1035b1113b2dcfa22339ddfce6a,test,Jergens,Supporting role character of Hero,0.0
+029a740fdf3ac1035b1113b2dcfa22339ddfce6a,test,Mickey,Mentor,0.0
+029a740fdf3ac1035b1113b2dcfa22339ddfce6a,test,Paulie,Supporting role character of Hero,1.0
+029a740fdf3ac1035b1113b2dcfa22339ddfce6a,test,Rocky,Hero,1.0
+7bb6637685c09c5f743f71eec12dca2ff6ff67dd,test,Jimmy,Hero,0.9396109580993652
+7bb6637685c09c5f743f71eec12dca2ff6ff67dd,test,Judy,Hero,0.26549434661865234
+76eac45695a363b5019846687ffc55dd2e97fbb3,test,Barnard,Supporting role character of Hero,0.2814698815345764
+76eac45695a363b5019846687ffc55dd2e97fbb3,test,Chang,Supporting role character of Hero,0.023042796179652214
+76eac45695a363b5019846687ffc55dd2e97fbb3,test,Conway,Hero,0.9339653849601746
+76eac45695a363b5019846687ffc55dd2e97fbb3,test,George,Supporting role character of Hero,0.0
+76eac45695a363b5019846687ffc55dd2e97fbb3,test,Gloria,Supporting role character of Hero,0.0
+76eac45695a363b5019846687ffc55dd2e97fbb3,test,Lama,Villain/Antagonist,0.33712238073349
+76eac45695a363b5019846687ffc55dd2e97fbb3,test,Lovett,Supporting role character of Hero,0.2814698815345764
+76eac45695a363b5019846687ffc55dd2e97fbb3,test,Maria,Supporting role character of Hero,0.01891253888607025
+76eac45695a363b5019846687ffc55dd2e97fbb3,test,Sondra,Spouse/Partner/Lover of Hero,0.2814698815345764
+67d5fdf95f736fc02c83889411d1a4c17f58532a,test,Dowser,Sidekick of Villain,1.0
+67d5fdf95f736fc02c83889411d1a4c17f58532a,test,Helpmann,Villain/Antagonist,0.0
+67d5fdf95f736fc02c83889411d1a4c17f58532a,test,Jack,Villain/Antagonist,0.0
+67d5fdf95f736fc02c83889411d1a4c17f58532a,test,Jill,Spouse/Partner/Lover of Hero,0.0
+67d5fdf95f736fc02c83889411d1a4c17f58532a,test,Sam,Hero,1.0
+67d5fdf95f736fc02c83889411d1a4c17f58532a,test,Spoor,Supporting role character of Hero,1.0
+67d5fdf95f736fc02c83889411d1a4c17f58532a,test,Tuttle,Sidekick of Hero,0.0
+88c0c064b373d0b89bb1a969168cd0facdc9d9a4,test,Arnold,Sidekick of Hero,0.2773776054382324
+88c0c064b373d0b89bb1a969168cd0facdc9d9a4,test,Charlie,Hero,0.17352871596813202
+88c0c064b373d0b89bb1a969168cd0facdc9d9a4,test,Eddie,Sidekick of Hero,0.01420609187334776
+88c0c064b373d0b89bb1a969168cd0facdc9d9a4,test,Walter,Sidekick of Hero,0.9103840589523315
+cb7c1deb168c88f655db80af693f747beb1c2d32,test,Bud,Hero,0.37631702423095703
+cb7c1deb168c88f655db80af693f747beb1c2d32,test,Jesse,Hero,0.3382206857204437
+97d5bd328e755273f400c401fd5aad1b76a1d0af,test,Billy,Supporting role character of Hero,0.3938748836517334
+97d5bd328e755273f400c401fd5aad1b76a1d0af,test,Joanna,Spouse/Partner/Lover of Hero,1.0
+97d5bd328e755273f400c401fd5aad1b76a1d0af,test,Ted,Hero,1.0
+4951655646efbba68ddae50d87f3b58a7b7ec5a8,test,Axe,Sidekick of Hero,0.0
+4951655646efbba68ddae50d87f3b58a7b7ec5a8,test,Brian,Hero,1.0
+4951655646efbba68ddae50d87f3b58a7b7ec5a8,test,Helen,Supporting role character of Hero,0.41270971298217773
+4951655646efbba68ddae50d87f3b58a7b7ec5a8,test,Jennifer,Spouse/Partner/Lover of Hero,1.0
+4951655646efbba68ddae50d87f3b58a7b7ec5a8,test,Ronald,Supporting role character of Hero,0.0
+4951655646efbba68ddae50d87f3b58a7b7ec5a8,test,Shadow,Supporting role character of Hero,0.0
+4951655646efbba68ddae50d87f3b58a7b7ec5a8,test,Stephen,Supporting role character of Hero,0.41270971298217773
+4951655646efbba68ddae50d87f3b58a7b7ec5a8,test,Swayzak,Villain/Antagonist,0.41270971298217773
+4951655646efbba68ddae50d87f3b58a7b7ec5a8,test,Tim,Supporting role character of Hero,0.0
+4748714f7b2970f715a3d5a1207358b80d55a1c0,test,Belloq,Villain/Antagonist,1.0
+4748714f7b2970f715a3d5a1207358b80d55a1c0,test,Brody,Supporting role character of Hero,1.0
+4748714f7b2970f715a3d5a1207358b80d55a1c0,test,Marion,Spouse/Partner/Lover of Hero,1.0
+4748714f7b2970f715a3d5a1207358b80d55a1c0,test,Sallah,Sidekick of Hero,1.0
+835731b91967631c39691be9d880569193a54f52,test,Audrey,Supporting role character of Hero,0.37126296758651733
+835731b91967631c39691be9d880569193a54f52,test,Brian,Supporting role character of Hero,0.37126296758651733
+835731b91967631c39691be9d880569193a54f52,test,Jake,Hero,0.37126296758651733
+835731b91967631c39691be9d880569193a54f52,test,Kathy,Supporting role character of Hero,0.37126296758651733
+835731b91967631c39691be9d880569193a54f52,test,Leonor,Supporting role character of Hero,0.37126296758651733
+835731b91967631c39691be9d880569193a54f52,test,Tony,Sidekick of Hero,0.0
+c6055a1a9ee8d01cc0265eb1703cc8deb3ea3741,test,Billy,Hero,1.0
+c6055a1a9ee8d01cc0265eb1703cc8deb3ea3741,test,Erich,Supporting role character of Hero,0.0
+c6055a1a9ee8d01cc0265eb1703cc8deb3ea3741,test,Hamidou,Villain/Antagonist,1.0
+c6055a1a9ee8d01cc0265eb1703cc8deb3ea3741,test,Max,Sidekick of Hero,0.3174438774585724
+c6055a1a9ee8d01cc0265eb1703cc8deb3ea3741,test,Susan,Spouse/Partner/Lover of Hero,1.0
+c6055a1a9ee8d01cc0265eb1703cc8deb3ea3741,test,Tex,Supporting role character of Hero,0.4041667580604553
+6b99beacca19b068480b7551b5b020719866fb82,test,Data,Sidekick of Hero,1.0
+6b99beacca19b068480b7551b5b020719866fb82,test,Geordi,Supporting role character of Hero,0.3544699251651764
+6b99beacca19b068480b7551b5b020719866fb82,test,Guinan,Supporting role character of Hero,0.31086015701293945
+6b99beacca19b068480b7551b5b020719866fb82,test,Kirk,Supporting role character of Hero,1.0
+6b99beacca19b068480b7551b5b020719866fb82,test,Picard,Hero,1.0
+6b99beacca19b068480b7551b5b020719866fb82,test,Riker,Supporting role character of Hero,0.3544699251651764
+6b99beacca19b068480b7551b5b020719866fb82,test,Soran,Villain/Antagonist,1.0
+6b99beacca19b068480b7551b5b020719866fb82,test,Worf,Supporting role character of Hero,0.3544699251651764
+20e57957be529cd480b2dc424542589276b0ffd6,test,Benicio,Supporting role character of Hero,0.3042464852333069
+20e57957be529cd480b2dc424542589276b0ffd6,test,Blanche,Supporting role character of Villain,0.0
+20e57957be529cd480b2dc424542589276b0ffd6,test,Cook,Villain/Antagonist,0.024907425045967102
+20e57957be529cd480b2dc424542589276b0ffd6,test,Driver,Hero,0.9348656535148621
+20e57957be529cd480b2dc424542589276b0ffd6,test,Irene,Spouse/Partner/Lover of Hero,0.9348656535148621
+20e57957be529cd480b2dc424542589276b0ffd6,test,Nino,Villain/Antagonist,0.0
+20e57957be529cd480b2dc424542589276b0ffd6,test,Shannon,Supporting role character of Hero,0.0
+20e57957be529cd480b2dc424542589276b0ffd6,test,Standard,Supporting role character of Hero,0.0
+b00ee1647fff7d49cf8390a10e8b8604848b3c8f,test,Aldys,Sidekick of Hero,0.0
+b00ee1647fff7d49cf8390a10e8b8604848b3c8f,test,Anita,Supporting role character of Hero,0.4041667580604553
+b00ee1647fff7d49cf8390a10e8b8604848b3c8f,test,Gibby,Sidekick of Villain,0.4041667580604553
+b00ee1647fff7d49cf8390a10e8b8604848b3c8f,test,Gus,Supporting role character of Hero,0.4041667580604553
+b00ee1647fff7d49cf8390a10e8b8604848b3c8f,test,Guy,Supporting role character of Hero,0.0
+b00ee1647fff7d49cf8390a10e8b8604848b3c8f,test,Josie,Hero,1.0
+b00ee1647fff7d49cf8390a10e8b8604848b3c8f,test,Rigfort,Supporting role character of Hero,0.4041667580604553
+b00ee1647fff7d49cf8390a10e8b8604848b3c8f,test,Rob,Supporting role character of Hero,0.0
+b00ee1647fff7d49cf8390a10e8b8604848b3c8f,test,Sam,Spouse/Partner/Lover of Hero,0.0
+272a0ff0d1cad9cdcfc50152c965f9860d97444f,test,Ginger,Spouse/Partner/Lover of Hero,0.4017317593097687
+272a0ff0d1cad9cdcfc50152c965f9860d97444f,test,Herndon,Supporting role character of Hero,0.36141350865364075
+272a0ff0d1cad9cdcfc50152c965f9860d97444f,test,Shepard,Supporting role character of Hero,0.34131816029548645
+272a0ff0d1cad9cdcfc50152c965f9860d97444f,test,Whitacre,Hero,1.0
+5cbe15fb8ddb48ffc00aef686e1b3f0a544c9e7a,test,Danny,Spouse/Partner/Lover of Hero,0.396882027387619
+5cbe15fb8ddb48ffc00aef686e1b3f0a544c9e7a,test,Emilio,Mentor,0.2913956940174103
+5cbe15fb8ddb48ffc00aef686e1b3f0a544c9e7a,test,Fabio,Supporting role character of Hero,0.396882027387619
+5cbe15fb8ddb48ffc00aef686e1b3f0a544c9e7a,test,Marco,Supporting role character of Villain,0.396882027387619
+5cbe15fb8ddb48ffc00aef686e1b3f0a544c9e7a,test,Richard,Supporting role character of Hero,0.396882027387619
+5cbe15fb8ddb48ffc00aef686e1b3f0a544c9e7a,test,Ross,Supporting role character of Hero,0.396882027387619
+434fbefff67dbfd28c54488d776a3c0f5e149eb2,test,Cypher,Supporting role character of Villain,0.0
+434fbefff67dbfd28c54488d776a3c0f5e149eb2,test,Morpheus,Mentor,0.0
+434fbefff67dbfd28c54488d776a3c0f5e149eb2,test,Neo,Hero,1.0
+434fbefff67dbfd28c54488d776a3c0f5e149eb2,test,Oracle,Supporting role character of Hero,0.3709167540073395
+434fbefff67dbfd28c54488d776a3c0f5e149eb2,test,Tank,Supporting role character of Hero,0.3709167540073395
+434fbefff67dbfd28c54488d776a3c0f5e149eb2,test,Trinity,Spouse/Partner/Lover of Hero,1.0
+828c5ba27c1b66346144f6de23cb424df500fc1e,test,Alice,Supporting role character of Hero,0.3149266242980957
+828c5ba27c1b66346144f6de23cb424df500fc1e,test,Doug,Hero,1.0
+828c5ba27c1b66346144f6de23cb424df500fc1e,test,Eleanor,Supporting role character of Hero,0.3837026059627533
+828c5ba27c1b66346144f6de23cb424df500fc1e,test,Jacey,Sidekick of Hero,1.0
+828c5ba27c1b66346144f6de23cb424df500fc1e,test,Joan,Spouse/Partner/Lover of Villain,0.0
+828c5ba27c1b66346144f6de23cb424df500fc1e,test,Lloyd,Villain/Antagonist,0.0
+828c5ba27c1b66346144f6de23cb424df500fc1e,test,Pamela,Spouse/Partner/Lover of Hero,1.0
+d21fdb6a1a8c938432012a1dfc47046073194511,test,Arthur,Hero,0.05524932220578194
+d21fdb6a1a8c938432012a1dfc47046073194511,test,Igrayne,Supporting role character of Hero,0.001561403856612742
+d21fdb6a1a8c938432012a1dfc47046073194511,test,Lancelot,Supporting role character of Hero,0.0
+d21fdb6a1a8c938432012a1dfc47046073194511,test,Merlin,Sidekick of Hero,0.01907269097864628
+d21fdb6a1a8c938432012a1dfc47046073194511,test,Mordred,Sidekick of Villain,0.0
+d21fdb6a1a8c938432012a1dfc47046073194511,test,Morgana,Villain/Antagonist,0.0
+d21fdb6a1a8c938432012a1dfc47046073194511,test,Perceval,Supporting role character of Hero,0.0
+d21fdb6a1a8c938432012a1dfc47046073194511,test,Uryens,Supporting role character of Hero,0.0681486651301384
+d21fdb6a1a8c938432012a1dfc47046073194511,test,Uther,Supporting role character of Hero,0.0
+d6aaaa82afa211533a74334127b8f557cf9ab0b3,test,Bill,Sidekick of Hero,0.0
+d6aaaa82afa211533a74334127b8f557cf9ab0b3,test,Bones,Villain/Antagonist,0.2873663902282715
+d6aaaa82afa211533a74334127b8f557cf9ab0b3,test,Jeremiah,Supporting role character of Hero,0.0
+d6aaaa82afa211533a74334127b8f557cf9ab0b3,test,Lupovich,Supporting role character of Hero,0.39139410853385925
+d6aaaa82afa211533a74334127b8f557cf9ab0b3,test,Mack,Supporting role character of Hero,0.0
+d6aaaa82afa211533a74334127b8f557cf9ab0b3,test,Maurice,Supporting role character of Villain,0.2873663902282715
+d6aaaa82afa211533a74334127b8f557cf9ab0b3,test,Patrick,Hero,0.0
+d6aaaa82afa211533a74334127b8f557cf9ab0b3,test,Pearl,Spouse/Partner/Lover of Villain,0.0
+d6aaaa82afa211533a74334127b8f557cf9ab0b3,test,Tia,Sidekick of Hero,0.0
+adf73cbf834b528ff87f2dc7f6fa4890f4eeb299,test,Brenda,Spouse/Partner/Lover of Hero,1.0
+adf73cbf834b528ff87f2dc7f6fa4890f4eeb299,test,Frank,Hero,1.0
+adf73cbf834b528ff87f2dc7f6fa4890f4eeb299,test,Paula,Supporting role character of Hero,1.0
+edeb8b6c7ca5b5095341401b844abcf7ab99bca0,test,Elaine,Spouse/Partner/Lover of Hero,0.9396109580993652
+edeb8b6c7ca5b5095341401b844abcf7ab99bca0,test,Oveur,Supporting role character of Hero,0.3924739956855774
+edeb8b6c7ca5b5095341401b844abcf7ab99bca0,test,Simon,Supporting role character of Hero,0.3924739956855774
+edeb8b6c7ca5b5095341401b844abcf7ab99bca0,test,Ted,Hero,0.9396109580993652
+6c3ea5f46bd93af135075912c6b80afc00115a55,test,Elizabeth,Spouse/Partner/Lover of Hero,1.0
+6c3ea5f46bd93af135075912c6b80afc00115a55,test,Essex,Supporting role character of Hero,0.0
+6c3ea5f46bd93af135075912c6b80afc00115a55,test,Francesco,Supporting role character of Hero,0.0
+6c3ea5f46bd93af135075912c6b80afc00115a55,test,Jonson,Sidekick of Hero,1.0
+6c3ea5f46bd93af135075912c6b80afc00115a55,test,Marlowe,Supporting role character of Hero,0.0
+6c3ea5f46bd93af135075912c6b80afc00115a55,test,Shakespeare,Supporting role character of Hero,0.0
+6c3ea5f46bd93af135075912c6b80afc00115a55,test,Southampton,Supporting role character of Hero,0.0
+248aeeae557721faef89a19b0501434dd6f15cc9,test,Crawford,Sidekick of Hero,0.3233408033847809
+248aeeae557721faef89a19b0501434dd6f15cc9,test,Dollarhyde,Villain/Antagonist,1.0
+248aeeae557721faef89a19b0501434dd6f15cc9,test,Graham,Hero,1.0
+248aeeae557721faef89a19b0501434dd6f15cc9,test,Kevin,Supporting role character of Hero,0.0
+248aeeae557721faef89a19b0501434dd6f15cc9,test,Lecktor,Supporting role character of Villain,0.0
+248aeeae557721faef89a19b0501434dd6f15cc9,test,Lounds,Supporting role character of Villain,0.0
+248aeeae557721faef89a19b0501434dd6f15cc9,test,Reba,Spouse/Partner/Lover of Villain,0.0
+de3bb6056b1a18b9ee5ed1bee16d7c2e59f19373,test,Columbus,Hero,0.5157932639122009
+de3bb6056b1a18b9ee5ed1bee16d7c2e59f19373,test,Moxica,Villain/Antagonist,1.0
+de3bb6056b1a18b9ee5ed1bee16d7c2e59f19373,test,Pinzon,Supporting role character of Hero,0.5157932639122009
+b7e8f05e074866f4853c8028baf3f8f9924094f6,test,Hollis,Supporting role character of Hero,0.0
+b7e8f05e074866f4853c8028baf3f8f9924094f6,test,Mercedes,Supporting role character of Hero,0.3402857780456543
+b7e8f05e074866f4853c8028baf3f8f9924094f6,test,Otis,Supporting role character of Hero,0.32976531982421875
+b7e8f05e074866f4853c8028baf3f8f9924094f6,test,Pilar,Spouse/Partner/Lover of Hero,0.02188030816614628
+b7e8f05e074866f4853c8028baf3f8f9924094f6,test,Sam,Hero,0.9290580153465271
+b7e8f05e074866f4853c8028baf3f8f9924094f6,test,Wade,Supporting role character of Villain,0.0
+3b5c5951a4aabf2e44dc307359bb39e62bf550e9,test,Edward,Supporting role character of Hero,0.0
+3b5c5951a4aabf2e44dc307359bb39e62bf550e9,test,Elinor,Sidekick of Hero,0.0
+3b5c5951a4aabf2e44dc307359bb39e62bf550e9,test,Fanny,Supporting role character of Hero,0.0
+3b5c5951a4aabf2e44dc307359bb39e62bf550e9,test,John,Supporting role character of Hero,0.0
+3b5c5951a4aabf2e44dc307359bb39e62bf550e9,test,Lucy,Supporting role character of Hero,0.0
+3b5c5951a4aabf2e44dc307359bb39e62bf550e9,test,Margaret,Supporting role character of Hero,0.0
+3b5c5951a4aabf2e44dc307359bb39e62bf550e9,test,Marianne,Hero,0.0
+3b5c5951a4aabf2e44dc307359bb39e62bf550e9,test,Robert,Supporting role character of Hero,0.0
+3b5c5951a4aabf2e44dc307359bb39e62bf550e9,test,Willoughby,Villain/Antagonist,0.0
+4f3c4e0f613b182c4135741122f9a93f579d9fe3,test,Lincoln,Hero,0.0
+4f3c4e0f613b182c4135741122f9a93f579d9fe3,test,Merrick,Villain/Antagonist,0.38698214292526245
+4f3c4e0f613b182c4135741122f9a93f579d9fe3,test,Tom,Supporting role character of Hero,0.319465309381485
+9b377b03913f9cf8a25a39a9b89c64baf3d75b40,test,Burnham,Villain/Antagonist,0.0
+9b377b03913f9cf8a25a39a9b89c64baf3d75b40,test,Junior,Villain/Antagonist,1.0
+9b377b03913f9cf8a25a39a9b89c64baf3d75b40,test,Meg,Hero,1.0
+9b377b03913f9cf8a25a39a9b89c64baf3d75b40,test,Raoul,Villain/Antagonist,0.0
+9b377b03913f9cf8a25a39a9b89c64baf3d75b40,test,Sarah,Sidekick of Hero,0.0
+651c8d7fc6310512ab52e76647aa14b2cd1b294e,test,Gregg,Supporting role character of Hero,0.026585986837744713
+651c8d7fc6310512ab52e76647aa14b2cd1b294e,test,Jill,Sidekick of Hero,0.36932072043418884
+e73945f6989ae34ad0eeb38c7fb21db3a5ffa4fa,test,Book,Supporting role character of Hero,0.0
+e73945f6989ae34ad0eeb38c7fb21db3a5ffa4fa,test,Inara,Supporting role character of Hero,1.0
+e73945f6989ae34ad0eeb38c7fb21db3a5ffa4fa,test,Jayne,Supporting role character of Hero,1.0
+e73945f6989ae34ad0eeb38c7fb21db3a5ffa4fa,test,Kaylee,Supporting role character of Hero,1.0
+e73945f6989ae34ad0eeb38c7fb21db3a5ffa4fa,test,Mal,Hero,0.0
+e73945f6989ae34ad0eeb38c7fb21db3a5ffa4fa,test,River,Sidekick of Hero,0.0
+e73945f6989ae34ad0eeb38c7fb21db3a5ffa4fa,test,Simon,Supporting role character of Hero,0.0
+e73945f6989ae34ad0eeb38c7fb21db3a5ffa4fa,test,Wash,Sidekick of Hero,1.0
+e73945f6989ae34ad0eeb38c7fb21db3a5ffa4fa,test,Zoe,Sidekick of Hero,0.0
+8081d88f6eb0746fb3d9aefe326858fc9f310a48,test,Julie,Supporting role character of Hero,0.01809355802834034
+8081d88f6eb0746fb3d9aefe326858fc9f310a48,test,Kai,Supporting role character of Hero,0.9352837204933167
+8081d88f6eb0746fb3d9aefe326858fc9f310a48,test,Mark,Supporting role character of Hero,0.3657832741737366
+8081d88f6eb0746fb3d9aefe326858fc9f310a48,test,Matt,Hero,0.2692812383174896
+8081d88f6eb0746fb3d9aefe326858fc9f310a48,test,Scottie,Supporting role character of Hero,0.3657832741737366
+8081d88f6eb0746fb3d9aefe326858fc9f310a48,test,Sid,Sidekick of Hero,0.30021923780441284
+d109ef1b03e9a9f9160b12eb06c8e5e46d5f09c5,test,Bud,Sidekick of Hero,0.30987346172332764
+d109ef1b03e9a9f9160b12eb06c8e5e46d5f09c5,test,Duke,Supporting role character of Hero,1.0
+d109ef1b03e9a9f9160b12eb06c8e5e46d5f09c5,test,Leila,Supporting role character of Hero,1.0
+d109ef1b03e9a9f9160b12eb06c8e5e46d5f09c5,test,Otto,Hero,1.0
+06ab79c0fea9d887179057abf1df28fa0b2f9c27,test,Abigail,Supporting role character of Hero,0.301370769739151
+06ab79c0fea9d887179057abf1df28fa0b2f9c27,test,Emily,Supporting role character of Hero,0.0
+06ab79c0fea9d887179057abf1df28fa0b2f9c27,test,Lisa,Hero,1.0
+06ab79c0fea9d887179057abf1df28fa0b2f9c27,test,Maretti,Villain/Antagonist,0.3837026059627533
+06ab79c0fea9d887179057abf1df28fa0b2f9c27,test,Paul,Spouse/Partner/Lover of Hero,0.3837026059627533
+06ab79c0fea9d887179057abf1df28fa0b2f9c27,test,Ramon,Supporting role character of Hero,0.0
+ce85b78a59e531bdd8f374527306b60072fbd842,test,Coco,Villain/Antagonist,0.019015895202755928
+ce85b78a59e531bdd8f374527306b60072fbd842,test,Kurt,Villain/Antagonist,0.4046584665775299
+ce85b78a59e531bdd8f374527306b60072fbd842,test,Lionel,Supporting role character of Hero,0.3574770390987396
+ce85b78a59e531bdd8f374527306b60072fbd842,test,Sam,Hero,0.4046584665775299
+ce85b78a59e531bdd8f374527306b60072fbd842,test,Troy,Supporting role character of Hero,0.019015895202755928
+16c774ded71b718757d5dbbd72a1238eb3dc98cb,test,Jane,Villain/Antagonist,0.0
+16c774ded71b718757d5dbbd72a1238eb3dc98cb,test,Lou,Spouse/Partner/Lover of Villain,0.0
+16c774ded71b718757d5dbbd72a1238eb3dc98cb,test,Luke,Sidekick of Hero,0.0
+16c774ded71b718757d5dbbd72a1238eb3dc98cb,test,Marrow,Supporting role character of Hero,0.0
+16c774ded71b718757d5dbbd72a1238eb3dc98cb,test,Nell,Hero,0.8756775259971619
+16c774ded71b718757d5dbbd72a1238eb3dc98cb,test,Theo,Sidekick of Hero,0.8756775259971619
+ca50bf7bdd697c8f2092ee67ccfece152029f4b5,test,Brent,Supporting role character of Hero,0.0
+ca50bf7bdd697c8f2092ee67ccfece152029f4b5,test,Jody,Hero,1.0
+ca50bf7bdd697c8f2092ee67ccfece152029f4b5,test,Kenny,Sidekick of Hero,0.0
+ca50bf7bdd697c8f2092ee67ccfece152029f4b5,test,Leonard,Villain/Antagonist,0.0
+ca50bf7bdd697c8f2092ee67ccfece152029f4b5,test,Stacy,Supporting role character of Hero,0.296245813369751
+abcdd1cea75a1268bc1408ef16f9acada946a0f1,test,Accountant,Supporting role character of Hero,1.0
+abcdd1cea75a1268bc1408ef16f9acada946a0f1,test,Cap,Supporting role character of Hero,0.0
+abcdd1cea75a1268bc1408ef16f9acada946a0f1,test,Frank,Supporting role character of Hero,0.37352582812309265
+abcdd1cea75a1268bc1408ef16f9acada946a0f1,test,Milton,Hero,1.0
+abcdd1cea75a1268bc1408ef16f9acada946a0f1,test,Piper,Spouse/Partner/Lover of Hero,0.29337766766548157
+abcdd1cea75a1268bc1408ef16f9acada946a0f1,test,Webster,Supporting role character of Hero,0.3330965042114258
+0f7240360f4c2d49708c9f704b467822768820d7,test,Cora,Supporting role character of Hero,0.0
+0f7240360f4c2d49708c9f704b467822768820d7,test,Nick,Hero,1.0
+0f7240360f4c2d49708c9f704b467822768820d7,test,Nicole,Spouse/Partner/Lover of Hero,0.2889614999294281
+0f7240360f4c2d49708c9f704b467822768820d7,test,Palomino,Villain/Antagonist,0.32052046060562134
+0f7240360f4c2d49708c9f704b467822768820d7,test,Tito,Supporting role character of Hero,0.0
+0f7240360f4c2d49708c9f704b467822768820d7,test,Wolf,Supporting role character of Hero,0.0
+1c21d6ba289ca1c198896ba4b95b3ee5887f0e76,test,Luke,Supporting role character of Hero,0.3179803788661957
+1c21d6ba289ca1c198896ba4b95b3ee5887f0e76,test,Theo,Supporting role character of Hero,0.3179803788661957
+3be0847afe72140727e7e9d69efe1972fe009592,test,Carrie,Hero,0.4175103008747101
+3be0847afe72140727e7e9d69efe1972fe009592,test,Delfy,Sidekick of Hero,0.2733152508735657
+3be0847afe72140727e7e9d69efe1972fe009592,test,Doc,Supporting role character of Villain,0.2916003167629242
+3be0847afe72140727e7e9d69efe1972fe009592,test,Pryce,Sidekick of Hero,0.0
+00f85a11a152739db6995cf2c5676d836185af20,test,Libby,Villain/Antagonist,0.34722912311553955
+00f85a11a152739db6995cf2c5676d836185af20,test,Valerie,Hero,0.3893737494945526
+b987ed205fdf4482001c880f83b9d01d97325e14,test,Cooper,Sidekick of Hero,0.0
+b987ed205fdf4482001c880f83b9d01d97325e14,test,Justin,Supporting role character of Hero,0.0
+b987ed205fdf4482001c880f83b9d01d97325e14,test,Miller,Hero,0.27772799134254456
+b987ed205fdf4482001c880f83b9d01d97325e14,test,Peters,Supporting role character of Hero,0.27772799134254456
+b987ed205fdf4482001c880f83b9d01d97325e14,test,Smith,Supporting role character of Hero,0.0
+b987ed205fdf4482001c880f83b9d01d97325e14,test,Starck,Sidekick of Hero,0.0
+b987ed205fdf4482001c880f83b9d01d97325e14,test,Weir,Villain/Antagonist,0.0
+0379e081617ade883c1c59b4266db7844d33373e,test,Billy,Spouse/Partner/Lover of Hero,0.0016091829165816307
+0379e081617ade883c1c59b4266db7844d33373e,test,Casey,Supporting role character of Villain,0.0016091829165816307
+0379e081617ade883c1c59b4266db7844d33373e,test,Dewey,Supporting role character of Hero,0.05693995580077171
+0379e081617ade883c1c59b4266db7844d33373e,test,Gale,Supporting role character of Hero,0.0016091829165816307
+0379e081617ade883c1c59b4266db7844d33373e,test,Kenny,Supporting role character of Hero,0.0
+0379e081617ade883c1c59b4266db7844d33373e,test,Randy,Supporting role character of Hero,0.0
+0379e081617ade883c1c59b4266db7844d33373e,test,Sidney,Hero,0.05693995580077171
+0379e081617ade883c1c59b4266db7844d33373e,test,Stu,Supporting role character of Villain,0.0679774284362793
+0379e081617ade883c1c59b4266db7844d33373e,test,Tatum,Supporting role character of Hero,0.0
