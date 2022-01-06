@@ -31,8 +31,9 @@ scripts annotated with character archetypes (Hero, Villain, Mentor, etc.).
 """
 
 _URLS = {
-    "full_text": "https://storage.googleapis.com/huggingface-nlp/datasets/narrative_qa/narrativeqa_full_text.zip",
-    "repo": "https://github.com/ghomasHudson/character-type-identification/archive/master.zip",
+    "full_text": "https://drive.google.com/uc?export=download&id=1pivLkYl6l6_jJlQkHGsvziEn82GBapWc",
+    # "repo": "https://github.com/ghomasHudson/character-type-identification/archive/master.zip",
+    "repo": "https://github.com/ghomasHudson/character-type-identification/archive/refs/heads/master.zip"
 }
 
 
@@ -60,6 +61,7 @@ class CharacterTypeID(datasets.GeneratorBasedBuilder):
                         "text": datasets.Value("string"),
                     },
                     "character_name": datasets.Value("string"),
+                    "unit_quality_score": datasets.Value("float32"),
                     "character_type": datasets.ClassLabel(names=[
                         "Hero",
                         "Villain/Antagonist",
@@ -116,15 +118,21 @@ class CharacterTypeID(datasets.GeneratorBasedBuilder):
                     continue
                 summaries[row["document_id"]] = row
 
-        with open(os.path.join(repo_dir, "character_labels.csv"), encoding="utf-8") as f:
+        char_fn = "character_labels.csv"
+        if split == "test":
+            char_fn = "character_labels_gold.csv"
+        with open(os.path.join(repo_dir, char_fn), encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for id_, row in enumerate(reader):
                 if row["set"] != split:
                     continue
                 document_id = row["document_id"]
+                if document_id not in documents.keys():
+                    print("NO KEY")
+                    breakpoint()
                 document = documents[document_id]
                 summary = summaries[document_id]
-                full_text = open(os.path.join(full_text_dir, document_id + ".content"), encoding="latin-1").read()
+                full_text = open(os.path.join(full_text_dir, document_id + ".txt"), encoding="latin-1").read()
                 res = {
                     "document": {
                         "id": document["document_id"],
@@ -141,6 +149,7 @@ class CharacterTypeID(datasets.GeneratorBasedBuilder):
                         "text": full_text,
                     },
                     "character_name": row["character_name"],
+                    "unit_quality_score": row["unit_quality_score"],
                     "character_type": row["character_type"]
                 }
                 yield id_, res
